@@ -9,4 +9,4 @@ Second concern is a possibility of creating a hedonistic loop, where humans woul
 
 Why now? General idea is that many "ingridients" for making an AI-generated movies are already in place. AI can already generate creative stories (chatgpt) and to some degree it is also already possible to generate video content automatically (runway ML).
 
-Building an end-to-end text to movie model
+Building an end-to-end text to movie generation as one model seems to be impossible at this point, however it might be possible to achieve with a pipeline (generate idea -> generate script -> generate detailed scene description -> generate each shot description -> generate shots with runwayml).
